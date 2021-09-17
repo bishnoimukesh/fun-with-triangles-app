@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: Lato;
+  font-size: 1.5rem;
+  background-color: #231f23;
+  color: #fff;
+  text-align: center;
+}
+
+nav{
+    background-color: rgb(54, 180, 180);
+    padding: 2rem;
+}
+
+
+.item-active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#name{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav a{
+    color: rgb(12, 61, 61);
+    text-decoration: none;
+    padding: 1rem;
+    float: right;
+}
+
+#container-main div{
+    color: rgb(54, 180, 180);
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+#container-main div a{
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 30%;
+    border: 2px solid rgb(54, 180, 180);
+    border-radius: 2rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#container-main div a:hover{
+    color: #000;
+    background-color: rgb(54, 180, 180);
+}
+
+input{
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgb(54, 180, 180);
+  border-radius: 0.5rem;
+  display: inline;
+  margin: 0.5rem auto;
+  width: 10rem;
+  padding: 0.6rem 1.25rem;
+  background-color: #dddddd;
+}
+
+button{
+    font-size: 1.2em;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #231f23;
+    border: 2px solid rgb(54, 180, 180);
+    border-radius: 2rem;
+    width: 20%;
+    cursor: pointer;
+    margin-top:3rem;
+    color : #fff;
+}
+
+button:hover{
+  background-color:  rgb(54, 180, 180);
+
+}
+
+#output{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(54, 180, 180);
+  margin: 5rem auto;
+  padding: 1rem;
+  width: 65%;
+}
+
+footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    padding-inline: 1rem;
+    font-size: 60px;
+    color: rgb(75, 125, 224);
+}
+
+nav a{
+    padding-inline: 1rem;
+    font-size: 30px;
+}
+
+nav a:hover{
+    font-size: 40px;
+    color: rgb(75, 125, 224);
+}
